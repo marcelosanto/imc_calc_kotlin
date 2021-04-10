@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edit_peso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:padding="20dp"
+        android:inputType="number"
+        android:hint="Peso"
+        android:textColorHint="@color/dark_blue"
+        />
+
+    <EditText
+        android:id="@+id/edit_altura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:padding="20dp"
+        android:inputType="number"
+        android:hint="Altura"
+        android:textColorHint="@color/dark_blue"
+        />
+
+<Button
+    android:id="@+id/btn_calcular"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Calcular IMC"
+    android:textAllCaps="false"
+    android:textStyle="bold"
+    android:textColor="@color/white"
+    android:textSize="18sp"
+    android:padding="15dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    android:layout_marginTop="30dp"
+    android:backgroundTint="@color/light_blue"
+    />
+
+    <TextView
+        android:id="@+id/mensagem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Informe seu peso"
+        android:textSize="24sp"
+        android:textColor="@color/dark_blue"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        />
+
+
+
+</LinearLayout>
